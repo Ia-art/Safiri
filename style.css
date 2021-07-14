@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+i {
+    color:#ff5722;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image:url(/images/wildbeast.jpg);
+    background-color: linear-gradient(rgba(0,0,0,.0.6),rgba(0,0,0,0.6));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+}
+.header-cont {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:80px;
+}
+.logo {
+    color:#fff;
+    float: left;
+    font-weight: 700;
+}
+.btn-light {
+    width:100px;
+    padding: 8px 0;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:transparent;
+    color: #fff;
+    float: right;
+}
+.header h1 {
+    padding-top: 250px;
+    font-size: 4rem;
+    color:#fff;
+    text-shadow: -2px 2px 2px #000;
+}
+.header p {
+    margin: 18px 0;
+    font-size: 1.5rem;
+    color:#fff;
+    text-shadow: -2px 2px 2px #000;
+}
+.input-group {
+    width:90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background:#fff;
+    margin: auto;
+    padding:2px;
+    height:50px;
+}
+.form-control {
+    border: none;
+    border-radius:30px 0 0 30px;
+    margin:2px ;
+    box-shadow: none;
+}
+.input-group-text {
+   padding: 10px 20px;
+   color:#002952;
+   font-size:1rem;
+   font-weight: 600;
+   border-radius: 30px;
+}
+.input-group-text:hover {
+    transform: scale(1.1);
+}
+/* features */
+.features {
+    padding: 80px 0;
+}
+.features h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img {
+    width: 100%;
+    height: 250px;
+} 
+.price {
+    width:100px;
+    height: 30px;
+    color:#ff5722;
+    font-weight: 600;
+    border-radius: 4px;
+    padding:5px;
+}
+.feature-details {
+    text-align: justify;
+}
+.feature-details i {
+    margin-right:5px;
+}
+/* Gallery */
+.gallery {
+    padding: 100px 0;
+    background-color: #efefef;
+}
+.gallery h1 {
+    text-align:center;
+    padding-bottom: 30px;
+}
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    height:200px;
+}
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+.gallery-box h4 {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    text-shadow: -2px 2px 2px #000;
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner {
+    height: 80vh;
+    background-image: url(/images/sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+.banner-highlights {
+    padding: 70px 0;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn {
+    width:120px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+.users-feedback h1 {
+    text-align: center;
+    padding: 100px 0;
+}
+.user-review {
+    text-align:center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+.user-review p {
+    padding: 50px 10px 10px 10px;
+}
+.users-feedback img {
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.footer {
+    padding: 100px 20px;
+    background-image: /*linear-gradient(#b3d5d2, #c99468)*/
+    linear-gradient(114.60586827354746deg, rgba(136, 156, 118,1) 4.927083333333334%,rgba(6, 94, 96,1) 97.84374999999999%);
+    color:#fff;
+}
+.footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: -2px 2px 2px #000;
+}
+.footer h4 {
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom:25px ;
+}
+#footer-text {
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row i {
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr {
+    margin-top: 10px;
+    background: #efefef;
+}
+.footer .copyright {
+    text-align:center;
+}
